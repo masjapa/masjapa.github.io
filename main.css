@@ -74,6 +74,12 @@ footer {
     color: whitesmoke;
 }
 
+@media (prefers-color-scheme: dark) {
+    .inside-header svg {
+        display: block;
+        background-image: black;
+    }
+  }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
